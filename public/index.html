@@ -49,6 +49,7 @@
   td{
     padding: 24px;
     line-height: 24px;
+    height: 24px;
   }
 
   td:nth-child(1) {  
@@ -58,17 +59,17 @@
 
   td:nth-child(2) {  
     width: 27%;
-    max-width:23%;
+    max-width:27%;
   }
 
   td:nth-child(3) {  
     width: 25%;
-    max-width:23%;
+    max-width:25%;
   }
 
   td:nth-child(4) {  
     width: 25%;
-    max-width:23%;
+    max-width:25%;
   }
 
   td:last-child{
@@ -91,16 +92,21 @@
 
   input[type=text] {
       color: #404040;
-      padding: 12px 20px ;
+      padding: 8px 20px ;
       display: inline-block;
       border: 1px solid #ccc;
       border-color: #ededed;
       box-sizing: border-box;
-      height: 40px;
       font-size: 16px;
       font-weight: 500;
       background-color: rgba(241, 241, 241, 0.36);
       width: 100%;
+      line-height: 24px;
+  }
+
+  td > input{
+    top: -10px;
+    position: relative;
   }
 
   input.invalid
