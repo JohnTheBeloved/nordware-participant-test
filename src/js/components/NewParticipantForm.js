@@ -87,15 +87,12 @@ export default class NewParticipantForm extends React.Component{
 		  email: newValue,
 		  emailError: newErrorValue
 		});
-		console.log(this.state.emailError);
 
 
 	}
 
 	addUser(e) {
-		console.log(this.state.emailError);
 	    e.preventDefault();
-	    console.log(this.state.emailError);
 	    if(this.state.nameError || this.state.numberError || this.state.emailError) {
 	      this.setState({showErrors: true});
 	      return;
