@@ -1,9 +1,98 @@
 # nordware-participant-test
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+## About this Project
+
+This project is a simple application written as a test assesement of technical abilities of Front end Developers for  nord software company by John Alade.
+
+For more information please contact John by mailing [topzyzo@yahoo.com](topzyzo@yahoo.com)
+
+## Problem Solved
+The [question](https://github.com/nordsoftware/docs/blob/master/recruitment/html5/README.md) was answered following this [User Interface](https://marvelapp.com/2bda7h0/screen/25353942) specifications(https://github.com/nordsoftware/docs/blob/master/recruitment/html5/styleguide.png)
+
+
+## Deployment
+The Deployed version can be viewed on [heroku]() , Please note that heroku free deployed applications go into a sleep mode if not accessed for about 30 minutes and therefore would take some time to load.
+
+## Development Framework 
+The language used was ReactJS framework, the project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) as specified in the [question](https://github.com/nordsoftware/docs/blob/master/recruitment/html5/README.md).
+
+Please find below the steps taken in creating, running and deployment of the Project.<br>
+
+Updated Source Code can found [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+
+##Project creation/scaffolding
+
+Development Requirements / Tools
+
+Make sure you install [npm] node package manager on your system, this can be installed on your system based on your operating system
+
+### NPM/Node 
+
+Please skip this section if you already use node on your System
+
+Visit the node website and download the node installer, after then run and Install on your system
+
+After installation, open a new command prompt and type in  these commands
+
+* `npm -v` which should show you the current version of npm installed on your system
+
+3.10.10 
+
+
+* `node -v` should show you the current version of node installed on your system
+
+v6.10.0 
+
+###GIT
+* `git --version` should show you the current version of git installed on your system
+
+###Linux 
+
+##Checking out the Project source code on your system
+
+open the command line and navigate to the folder you wish to create the project
+
+Also install git on system by downloading and
+
+```
+git clone  
+```
+
+Create your branch from the master branch
+
+```
+git checkout -b <branch-name>
+```
+
+After checking out your branch, the tree project folder structure should be similar to the one below
+
+```
+nord-software-test/
+  README.md
+  node_modules/
+  package.json
+  public/
+    index.html
+    favicon.ico
+  src/
+    js/
+      components/
+        Header.js
+        Body.js
+        Table.js
+        NewParticipantForm.js
+        Row.js
+      utils/
+        Validate.js
+    App.css
+    App.js
+    App.test.js
+    index.css
+    index.js
+    logo.svg
+```
 
 ## Table of Contents
 

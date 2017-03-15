@@ -15,7 +15,7 @@ export default class App extends React.Component{
   }
 
   sortParticipants(key,asc){
-        var arr = this.getParticipantsStub();
+        var arr = this.state.participants;
         arr.sort(function(a, b){
             if(a[key] < b[key]){
                 return -1;
