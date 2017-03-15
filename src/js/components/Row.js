@@ -5,7 +5,6 @@ import ValidateUtils from "../utils/Validate.js"
 export default class Row extends React.Component{
 	constructor(props){
 		super(props);
-		console.log(props)
 		this.state = {
 			fullName:props.fullName,
 			email:props.email,
