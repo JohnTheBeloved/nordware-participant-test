@@ -87,19 +87,19 @@ export default class App extends React.Component{
           {
             "id": 6,
             "fullName" : "John Bunyan",
-            "email": "john.bunyan@pilgrimsprogress.com",
+            "email": "john.bunyan@pilprog.com",
             "phoneNumber": "821234567899"
           },
           {
             "id": 7,
             "fullName" : "Olaf Petrucci",
             "email": "olaf.petrucci@warofworlds.com",
-            "phoneNumber": ""
+            "phoneNumber": "821234567899"
           },
           {
             "id": 8,
             "fullName" : "Bob Dylan",
-            "email": "bob.dylan@folkandcountry.net",
+            "email": "bob.dylan@folkandcount.net",
             "phoneNumber": "98787234343"
           },
           {
@@ -129,19 +129,19 @@ export default class App extends React.Component{
           {
             "id": 13,
             "fullName" : "Dan Haseltine",
-            "email": "dan.haseltine@alternativerk.net",
+            "email": "dan.has@alternativerk.net",
             "phoneNumber": "94285554343"
           },
           {
             "id": 14,
             "fullName" : "Stephen Mason",
-            "email": "stephen.mason@alternativerock.net",
+            "email": "stephen.mason@alternatives.net",
             "phoneNumber": "94285434343"
           },
           {
             "id": 15,
             "fullName" : "Matthew Odmark",
-            "email": "matthew.odmark@alternativerock.net",
+            "email": "matthew.odmark@rockalt.net",
             "phoneNumber": "94284434343"
           },
           {

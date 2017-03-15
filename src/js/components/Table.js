@@ -10,13 +10,13 @@ export default class Table extends React.Component{
 	}
 
 	getSortOrder(columnName){
-		if(columnName == "fullName"){
+		if(columnName === "fullName"){
 			this.setState({sortNameAsc:(!this.state.sortNameAsc)});
 			return !this.state.sortNameAsc;
-		}else if(columnName == "email"){
+		}else if(columnName === "email"){
 			this.setState({sortEmailAsc:(!this.state.sortEmailAsc)});
 			return !this.state.sortEmailAsc;
-		}else if(columnName == "phoneNumber"){
+		}else if(columnName === "phoneNumber"){
 			this.setState({sortNumberAsc:(!this.state.sortNumberAsc)});
 			return !this.state.sortNumberAsc;
 		}
