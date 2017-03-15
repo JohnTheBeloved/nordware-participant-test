@@ -10,7 +10,7 @@ export default class Body extends React.Component{
 			<div className="body">
 		      <div className="body-header">List of participants</div>
 		      <NewParticipantForm addParticipant={this.props.addParticipant}/>
-		     <Table rows={this.props.participants} deleteParticipant={this.props.deleteParticipant}/>
+		     <Table rows={this.props.participants} deleteParticipant={this.props.deleteParticipant} sort={this.props.sort}/>
 		    </div>
 		);
 	}

@@ -5,7 +5,6 @@ import ValidateUtils from "../utils/Validate.js"
 export default class Row extends React.Component{
 	constructor(props){
 		super(props);
-		console.log(props)
 		this.state = {
 			fullName:props.fullName,
 			email:props.email,
@@ -64,7 +63,7 @@ export default class Row extends React.Component{
 			        	<a className={this.state.edit ? 'hide' : 'show'} href="" onClick={this.handleEdit}><i className="icon ion-edit"  ></i></a>
 			        	<a className={this.state.edit ? 'hide' : 'show'} href="" onClick={this.handleDelete}><i className="icon ion-trash-b"  ></i></a>
 			        	<input className={this.state.edit ? 'show button-blue pull-right' : 'hide button-blue pull-right'} onClick={this.handleSubmit.bind(this)} type="submit" value="Save" />
-			        	<input className={this.state.edit ? 'show pull-right margin-15-right' : 'hide pull-right margin-15-right'}  onClick={this.handleCancel.bind(this)} type="button" value="Cancel" />
+			        	<input className={this.state.edit ? 'show text-blue pull-right margin-15-right' : 'hide  text-blue pull-right margin-15-right'}  onClick={this.handleCancel.bind(this)} type="button" value="Cancel" />
 			        </td>
 			    </tr>
 		);

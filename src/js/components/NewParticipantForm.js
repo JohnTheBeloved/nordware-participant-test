@@ -44,8 +44,7 @@ export default class NewParticipantForm extends React.Component{
  		this.setState({numberIsDirty:true});
 	    let newValue = e.target.value;
 	    let newErrorValue = '';
-	    //validate stuff here
-	    if(newValue === '') {
+	    if(ValidateUtils.isEmpty(newValue)) {
 	      newErrorValue = 'Field is empty';
 	      this.setState({emailIsDirty:false});
 	    }
@@ -88,15 +87,12 @@ export default class NewParticipantForm extends React.Component{
 		  email: newValue,
 		  emailError: newErrorValue
 		});
-		console.log(this.state.emailError);
 
 
 	}
 
 	addUser(e) {
-		console.log(this.state.emailError);
 	    e.preventDefault();
-	    console.log(this.state.emailError);
 	    if(this.state.nameError || this.state.numberError || this.state.emailError) {
 	      this.setState({showErrors: true});
 	      return;
