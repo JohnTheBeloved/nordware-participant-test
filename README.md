@@ -8,7 +8,7 @@ This project is a simple application written as a test assesement of technical a
 For more information please contact John by mailing [topzy20@yahoo.com](topzy20@yahoo.com)
 
 ## Problem Solved
-The project was written as a solution to this [requirements](https://github.com/nordsoftware/docs/blob/master/recruitment/html5/README.md). It was answered following this [User Interface](https://marvelapp.com/2bda7h0/screen/25353942) specifications(https://github.com/nordsoftware/docs/blob/master/recruitment/html5/styleguide.png)
+The project was written as a solution to this [requirements](https://github.com/nordsoftware/docs/blob/master/recruitment/html5/README.md). It was answered following this [User Interface Experience](https://marvelapp.com/2bda7h0/screen/25353942) and [specifications](https://github.com/nordsoftware/docs/blob/master/recruitment/html5/styleguide.png)
 
 
 ## Deployment
