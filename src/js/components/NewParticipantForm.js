@@ -44,8 +44,7 @@ export default class NewParticipantForm extends React.Component{
  		this.setState({numberIsDirty:true});
 	    let newValue = e.target.value;
 	    let newErrorValue = '';
-	    //validate stuff here
-	    if(newValue === '') {
+	    if(ValidateUtils.isEmpty(newValue)) {
 	      newErrorValue = 'Field is empty';
 	      this.setState({emailIsDirty:false});
 	    }
