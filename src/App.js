@@ -35,10 +35,10 @@ export default class App extends React.Component{
   };
 
   deleteParticipant(index) {
-    let tempData = this.state.data.slice();
+    let tempData = this.state.participants.slice();
     tempData.splice(index, 1);
     this.setState({
-      data: tempData
+      participants: tempData
     })
   };
 
@@ -47,7 +47,7 @@ export default class App extends React.Component{
     return(
       <div>
         <Header />
-        <Body participants={this.state.participants} addParticipant={this.addParticipant} deleteParticipant={this.deleteItem} sort={this.sortParticipants}/>
+        <Body participants={this.state.participants} addParticipant={this.addParticipant} deleteParticipant={this.deleteParticipant} sort={this.sortParticipants}/>
       </div>
     );
   }

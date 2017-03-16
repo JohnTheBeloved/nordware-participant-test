@@ -39,6 +39,7 @@ export default class Row extends React.Component{
 	}
 
 	handleDelete(e){
+		console.log(e);
 		this.props.deleteParticipant();
 		e.preventDefault();
 	}
